@@ -1,4 +1,10 @@
-﻿using System;
+﻿using AutoMapper;
+using MediatR;
+using StudentManagment.Application.CQRS.Queries;
+using StudentManagment.Application.DTOs;
+using StudentManagment.Domain.Enitites;
+using StudentManagment.Domain.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +12,20 @@ using System.Threading.Tasks;
 
 namespace StudentManagment.Application.CQRS.Handlers.Enrollments
 {
-    class GetAllEnrollmentsHandler
+    public class GetAllEnrollmentsHandler : IRequestHandler<GetAllEnrollmentsQuery, List<EnrollmentDTO>>
     {
+        private readonly IRepository<Enrollment> _repository;
+        private readonly IMapper _mapper;
+
+        public GetAllEnrollmentsHandler(IRepository<Enrollment> repository, IMapper mapper)
+        {
+            _repository = repository;
+            _mapper = mapper;
+        }
+        public async Task<List<EnrollmentDTO>> Handle(GetAllEnrollmentsQuery request, CancellationToken cancellationToken)
+        {
+            var enrollments = await _repository.GetAllAsync();
+            return _mapper.Map<List<EnrollmentDTO>>(enrollments);
+        }
     }
 }

@@ -8,5 +8,5 @@ using System.Threading.Tasks;
 
 namespace StudentManagment.Application.CQRS.Queries
 {
-    public record GetAllEnrollmentssQuery : IRequest<List<EnrollmentDTO>>;
+    public record GetAllEnrollmentsQuery : IRequest<List<EnrollmentDTO>>;
 }
