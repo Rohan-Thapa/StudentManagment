@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace StudentManagment.Application.CQRS.Commands
 {
-    using MediatR;
 
     public class DeleteStudentCommand : IRequest<Unit> // ✅ Ensure it implements IRequest<Unit>
     {
