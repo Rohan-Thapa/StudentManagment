@@ -1,0 +1,15 @@
+C:\Users\Asus\source\repos\StudentManagment.Application\bin\Debug\net8.0\StudentManagment.Application.deps.json
+C:\Users\Asus\source\repos\StudentManagment.Application\bin\Debug\net8.0\StudentManagment.Application.dll
+C:\Users\Asus\source\repos\StudentManagment.Application\bin\Debug\net8.0\StudentManagment.Application.pdb
+C:\Users\Asus\source\repos\StudentManagment.Application\bin\Debug\net8.0\StudentManagment.Domain.dll
+C:\Users\Asus\source\repos\StudentManagment.Application\bin\Debug\net8.0\StudentManagment.Domain.pdb
+C:\Users\Asus\source\repos\StudentManagment.Application\obj\Debug\net8.0\StudentManagment.Application.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\StudentManagment.Application\obj\Debug\net8.0\StudentManagment.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\StudentManagment.Application\obj\Debug\net8.0\StudentManagment.Application.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\StudentManagment.Application\obj\Debug\net8.0\StudentManagment.Application.AssemblyInfo.cs
+C:\Users\Asus\source\repos\StudentManagment.Application\obj\Debug\net8.0\StudentManagment.Application.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\StudentManagment.Application\obj\Debug\net8.0\StudentM.DC11C0AB.Up2Date
+C:\Users\Asus\source\repos\StudentManagment.Application\obj\Debug\net8.0\StudentManagment.Application.dll
+C:\Users\Asus\source\repos\StudentManagment.Application\obj\Debug\net8.0\refint\StudentManagment.Application.dll
+C:\Users\Asus\source\repos\StudentManagment.Application\obj\Debug\net8.0\StudentManagment.Application.pdb
+C:\Users\Asus\source\repos\StudentManagment.Application\obj\Debug\net8.0\ref\StudentManagment.Application.dll

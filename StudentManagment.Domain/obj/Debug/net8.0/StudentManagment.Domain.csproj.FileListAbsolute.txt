@@ -1,0 +1,11 @@
+C:\Users\Asus\source\repos\StudentManagment.Domain\bin\Debug\net8.0\StudentManagment.Domain.deps.json
+C:\Users\Asus\source\repos\StudentManagment.Domain\bin\Debug\net8.0\StudentManagment.Domain.dll
+C:\Users\Asus\source\repos\StudentManagment.Domain\bin\Debug\net8.0\StudentManagment.Domain.pdb
+C:\Users\Asus\source\repos\StudentManagment.Domain\obj\Debug\net8.0\StudentManagment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\StudentManagment.Domain\obj\Debug\net8.0\StudentManagment.Domain.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\StudentManagment.Domain\obj\Debug\net8.0\StudentManagment.Domain.AssemblyInfo.cs
+C:\Users\Asus\source\repos\StudentManagment.Domain\obj\Debug\net8.0\StudentManagment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\StudentManagment.Domain\obj\Debug\net8.0\StudentManagment.Domain.dll
+C:\Users\Asus\source\repos\StudentManagment.Domain\obj\Debug\net8.0\refint\StudentManagment.Domain.dll
+C:\Users\Asus\source\repos\StudentManagment.Domain\obj\Debug\net8.0\StudentManagment.Domain.pdb
+C:\Users\Asus\source\repos\StudentManagment.Domain\obj\Debug\net8.0\ref\StudentManagment.Domain.dll
