@@ -12,8 +12,8 @@ namespace StudentManagment.Application.CQRS.Commands
         public int GradeID { get; set; }
         public int StudentID { get; set; }
         public int CourseID { get; set; }
-        public string? LetterGrade { get; set; }
-        public UpdateGradeCommand(int gradeID, int studentID, int courseID, string? letterGrade)
+        public char LetterGrade { get; set; }
+        public UpdateGradeCommand(int gradeID, int studentID, int courseID, char letterGrade)
         {
             GradeID = gradeID;
             StudentID = studentID;

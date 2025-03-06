@@ -74,7 +74,7 @@ namespace StudentManagment.Infrastructure.Migrations
                     b.Property<int>("CourseID")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("LetterGrade")
+                    b.Property<char>("LetterGrade")
                         .HasColumnType("TEXT");
 
                     b.Property<int>("StudentID")

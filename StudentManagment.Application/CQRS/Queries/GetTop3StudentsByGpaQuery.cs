@@ -1,0 +1,14 @@
+﻿using MediatR;
+using StudentManagment.Application.DTOs;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace StudentManagment.Application.CQRS.Queries
+{
+    public class GetTop3StudentsByGpaQuery : IRequest<List<StudentGpaDTO>>
+    {
+    }
+}

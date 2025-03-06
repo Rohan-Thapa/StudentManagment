@@ -11,6 +11,6 @@ namespace StudentManagment.Application.DTOs
         public int GradeID { get; set; }
         public int StudentID { get; set; }
         public int CourseID { get; set; }
-        public string? LetterGrade { get; set; } // A, B, C, D, F
+        public char LetterGrade { get; set; } // A, B, C, D, F
     }
 }

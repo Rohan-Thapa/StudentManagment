@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using StudentManagment.Application.Interfaces;
 using StudentManagment.Domain.Enitites;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace StudentManagment.Infrastructure.Persistence
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : DbContext, IAppDbContext
     {
         public DbSet<Student> Students { get; set; }
         public DbSet<Course> Courses { get; set; }
@@ -60,6 +61,7 @@ namespace StudentManagment.Infrastructure.Persistence
                 .WithMany(c => c.Grades)
                 .HasForeignKey(g => g.CourseID);
 
+            // Checking for the GradeLetter to be specific characters
             modelBuilder.Entity<Grade>()
                 .HasAnnotation("SqlServer:CheckConstraint", "CK_Grades_GradeLetter CHECK (GradeLetter IN('A', 'B', 'C', 'D', 'F'))");
         }

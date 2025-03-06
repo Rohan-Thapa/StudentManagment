@@ -8,5 +8,5 @@ using System.Threading.Tasks;
 
 namespace StudentManagment.Application.CQRS.Commands
 {
-    public record CreateGradeCommand(int StudentID, int CourseID, string LetterGrade) : IRequest<GradeDTO>;
+    public record CreateGradeCommand(int StudentID, int CourseID, char LetterGrade) : IRequest<GradeDTO>;
 }
