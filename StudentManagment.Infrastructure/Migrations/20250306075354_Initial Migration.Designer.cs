@@ -11,8 +11,8 @@ using StudentManagment.Infrastructure.Persistence;
 namespace StudentManagment.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250305075029_Initial")]
-    partial class Initial
+    [Migration("20250306075354_Initial Migration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -37,6 +37,9 @@ namespace StudentManagment.Infrastructure.Migrations
 
                     b.HasKey("CourseID");
 
+                    b.HasIndex("CourseCode")
+                        .IsUnique();
+
                     b.ToTable("Courses");
                 });
 
@@ -59,7 +62,8 @@ namespace StudentManagment.Infrastructure.Migrations
 
                     b.HasIndex("CourseID");
 
-                    b.HasIndex("StudentID");
+                    b.HasIndex("StudentID", "CourseID")
+                        .IsUnique();
 
                     b.ToTable("Enrollments");
                 });
@@ -73,7 +77,7 @@ namespace StudentManagment.Infrastructure.Migrations
                     b.Property<int>("CourseID")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("LetterGrade")
+                    b.Property<char>("LetterGrade")
                         .HasColumnType("TEXT");
 
                     b.Property<int>("StudentID")
@@ -86,6 +90,8 @@ namespace StudentManagment.Infrastructure.Migrations
                     b.HasIndex("StudentID");
 
                     b.ToTable("Grades");
+
+                    b.HasAnnotation("SqlServer:CheckConstraint", "CK_Grades_GradeLetter CHECK (GradeLetter IN('A', 'B', 'C', 'D', 'F'))");
                 });
 
             modelBuilder.Entity("StudentManagment.Domain.Enitites.Student", b =>
@@ -110,6 +116,9 @@ namespace StudentManagment.Infrastructure.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasKey("StudentID");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
 
                     b.ToTable("Students");
                 });
