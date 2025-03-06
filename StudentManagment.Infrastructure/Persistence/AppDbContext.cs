@@ -19,6 +19,21 @@ namespace StudentManagment.Infrastructure.Persistence
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // Unique email should be there for Student
+            modelBuilder.Entity<Student>()
+                .HasIndex(s => s.Email)
+                .IsUnique();
+
+            // Unique CourseCode for the Course
+            modelBuilder.Entity<Course>()
+                .HasIndex(c => c.CourseCode)
+                .IsUnique();
+
+            // Prevent duplicate enrollments
+            modelBuilder.Entity<Enrollment>()
+                .HasIndex(e => new { e.StudentID, e.CourseID })
+                .IsUnique();
+
             modelBuilder.Entity<Enrollment>()
                 .HasKey(e => e.EnrollmentID);
 
