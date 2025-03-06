@@ -11,7 +11,7 @@ namespace StudentManagment.Domain.Enitites
         public int GradeID { get; set; }
         public int StudentID { get; set; }
         public int CourseID { get; set; }
-        public char LetterGrade { get; set; } = 'F'; // A, B, C, D, F
+        public char LetterGrade { get; set; } = 'F'; // A, B, C, D, F Default being 'F'
         public Student? Student { get; set; }
         public Course? Course { get; set; }
     }
