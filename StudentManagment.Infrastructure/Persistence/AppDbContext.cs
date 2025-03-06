@@ -44,6 +44,9 @@ namespace StudentManagment.Infrastructure.Persistence
                 .HasOne(g => g.Course)
                 .WithMany(c => c.Grades)
                 .HasForeignKey(g => g.CourseID);
+
+            modelBuilder.Entity<Grade>()
+                .HasAnnotation("SqlServer:CheckConstraint", "CK_Grades_GradeLetter CHECK (GradeLetter IN('A', 'B', 'C', 'D', 'F'))");
         }
     }
 
