@@ -16,3 +16,4 @@ namespace StudentManagment.Domain.Enitites
         public ICollection<Grade>? Grades { get; set; }
     }
 }
+// HandCrafted By Rohan Thapa

@@ -10,3 +10,4 @@ namespace StudentManagment.Application.CQRS.Commands
 {
     public record CreateStudentCommand(string FullName, string Email, string PhoneNumber) : IRequest<StudentDTO>;
 }
+// HandCrafted By Rohan Thapa

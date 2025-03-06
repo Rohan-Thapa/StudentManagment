@@ -10,3 +10,4 @@ namespace StudentManagment.Application.CQRS.Queries
 {
     public record GetAllEnrollmentsQuery : IRequest<List<EnrollmentDTO>>;
 }
+// HandCrafted By Rohan Thapa

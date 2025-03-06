@@ -10,3 +10,4 @@ namespace StudentManagment.Application.CQRS.Commands
 {
     public record CreateGradeCommand(int StudentID, int CourseID, char LetterGrade) : IRequest<GradeDTO>;
 }
+// HandCrafted By Rohan Thapa

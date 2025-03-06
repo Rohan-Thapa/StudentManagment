@@ -16,3 +16,4 @@ namespace StudentManagment.Domain.Enitites
         public DateTime EnrollmentDate { get; set; } = DateTime.UtcNow;
     }
 }
+// HandCrafted By Rohan Thapa

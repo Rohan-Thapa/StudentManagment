@@ -10,3 +10,4 @@ namespace StudentManagment.Application.CQRS.Commands
 {
     public record CreateCourseCommand(string CourseName, string CourseCode, int CreditHours) : IRequest<CourseDTO>;
 }
+// HandCrafted By Rohan Thapa

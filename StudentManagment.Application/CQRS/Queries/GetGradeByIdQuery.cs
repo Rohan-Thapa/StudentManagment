@@ -10,3 +10,4 @@ namespace StudentManagment.Application.CQRS.Queries
 {
     public record GetGradeByIdQuery(int GradeID) : IRequest<GradeDTO>;
 }
+// HandCrafted By Rohan Thapa

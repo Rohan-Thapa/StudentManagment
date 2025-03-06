@@ -10,3 +10,4 @@ namespace StudentManagment.Application.CQRS.Queries
 {
     public record GetEnrollmentByIdQuery(int EnrollmentID) : IRequest<EnrollmentDTO>;
 }
+// HandCrafted By Rohan Thapa

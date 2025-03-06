@@ -10,3 +10,4 @@ namespace StudentManagment.Application.CQRS.Queries
 {
     public record GetAllGradesQuery : IRequest<List<GradeDTO>>;
 }
+// HandCrafted By Rohan Thapa

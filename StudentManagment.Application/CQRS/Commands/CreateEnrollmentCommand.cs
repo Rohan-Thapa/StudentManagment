@@ -10,3 +10,4 @@ namespace StudentManagment.Application.CQRS.Commands
 {
     public record CreateEnrollmentCommand(int StudentID, int CourseID, DateTime EnrollmentDate) : IRequest<EnrollmentDTO>;
 }
+// HandCrafted By Rohan Thapa

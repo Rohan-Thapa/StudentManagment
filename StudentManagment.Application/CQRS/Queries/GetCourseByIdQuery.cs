@@ -10,3 +10,4 @@ namespace StudentManagment.Application.CQRS.Queries
 {
     public record GetCourseByIdQuery(int CourseID) : IRequest<CourseDTO>;
 }
+// HandCrafted By Rohan Thapa

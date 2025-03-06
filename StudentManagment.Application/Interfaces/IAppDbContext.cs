@@ -17,3 +17,4 @@ namespace StudentManagment.Application.Interfaces
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }
 }
+// HandCrafted By Rohan Thapa
