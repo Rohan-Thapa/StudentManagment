@@ -35,6 +35,7 @@ namespace StudentManagment.Infrastructure.Persistence
                 .HasIndex(e => new { e.StudentID, e.CourseID })
                 .IsUnique();
 
+            // Below are just the normal relation development among the tables of the database.
             modelBuilder.Entity<Enrollment>()
                 .HasKey(e => e.EnrollmentID);
 
