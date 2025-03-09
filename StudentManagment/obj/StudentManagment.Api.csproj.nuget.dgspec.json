@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment\\StudentManagment.Api.csproj": {}
+    "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment\\StudentManagment.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Application\\StudentManagment.Application.csproj": {
+    "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Application\\StudentManagment.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Application\\StudentManagment.Application.csproj",
+        "projectUniqueName": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Application\\StudentManagment.Application.csproj",
         "projectName": "StudentManagment.Application",
-        "projectPath": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Application\\StudentManagment.Application.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Application\\obj\\",
+        "projectPath": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Application\\StudentManagment.Application.csproj",
+        "packagesPath": "C:\\Users\\rohan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Domain\\StudentManagment.Domain.csproj": {
-                "projectPath": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Domain\\StudentManagment.Domain.csproj"
+              "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\StudentManagment.Domain.csproj": {
+                "projectPath": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\StudentManagment.Domain.csproj"
               }
             }
           }
@@ -87,20 +87,20 @@
         }
       }
     },
-    "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Domain\\StudentManagment.Domain.csproj": {
+    "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\StudentManagment.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Domain\\StudentManagment.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\StudentManagment.Domain.csproj",
         "projectName": "StudentManagment.Domain",
-        "projectPath": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Domain\\StudentManagment.Domain.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Domain\\obj\\",
+        "projectPath": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\StudentManagment.Domain.csproj",
+        "packagesPath": "C:\\Users\\rohan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -152,20 +152,20 @@
         }
       }
     },
-    "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Infrastructure\\StudentManagment.Infrastructure.csproj": {
+    "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Infrastructure\\StudentManagment.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Infrastructure\\StudentManagment.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Infrastructure\\StudentManagment.Infrastructure.csproj",
         "projectName": "StudentManagment.Infrastructure",
-        "projectPath": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Infrastructure\\StudentManagment.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Infrastructure\\StudentManagment.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rohan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -180,11 +180,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Application\\StudentManagment.Application.csproj": {
-                "projectPath": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Application\\StudentManagment.Application.csproj"
+              "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Application\\StudentManagment.Application.csproj": {
+                "projectPath": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Application\\StudentManagment.Application.csproj"
               },
-              "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Domain\\StudentManagment.Domain.csproj": {
-                "projectPath": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Domain\\StudentManagment.Domain.csproj"
+              "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\StudentManagment.Domain.csproj": {
+                "projectPath": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\StudentManagment.Domain.csproj"
               }
             }
           }
@@ -215,7 +215,7 @@
               "target": "Package",
               "version": "[9.0.2, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.2, )"
             },
@@ -246,20 +246,20 @@
         }
       }
     },
-    "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment\\StudentManagment.Api.csproj": {
+    "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment\\StudentManagment.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment\\StudentManagment.Api.csproj",
+        "projectUniqueName": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment\\StudentManagment.Api.csproj",
         "projectName": "StudentManagment.Api",
-        "projectPath": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment\\StudentManagment.Api.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment\\obj\\",
+        "projectPath": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment\\StudentManagment.Api.csproj",
+        "packagesPath": "C:\\Users\\rohan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rohan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -274,11 +274,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Application\\StudentManagment.Application.csproj": {
-                "projectPath": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Application\\StudentManagment.Application.csproj"
+              "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Application\\StudentManagment.Application.csproj": {
+                "projectPath": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Application\\StudentManagment.Application.csproj"
               },
-              "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Infrastructure\\StudentManagment.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Asus\\source\\repos\\TaskWebAPI\\StudentManagment.Infrastructure\\StudentManagment.Infrastructure.csproj"
+              "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Infrastructure\\StudentManagment.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Infrastructure\\StudentManagment.Infrastructure.csproj"
               }
             }
           }
