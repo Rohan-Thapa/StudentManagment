@@ -12,8 +12,8 @@ using StudentManagment.Infrastructure.Persistence;
 namespace StudentManagment.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250309050305_init")]
-    partial class init
+    [Migration("20250309051629_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
