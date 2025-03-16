@@ -12,6 +12,7 @@
           "Microsoft.EntityFrameworkCore.Design": "9.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.2",
+          "SriLibs.DataSync.MSSQLSERVER.NetFramework": "1.0.4",
           "StudentManagment.Application": "1.0.0",
           "StudentManagment.Domain": "1.0.0"
         },
@@ -777,6 +778,14 @@
           }
         }
       },
+      "SriLibs.DataSync.MSSQLSERVER.NetFramework/1.0.4": {
+        "runtime": {
+          "lib/net45/SriLibs.DataSync.MSSQLSERVER.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
       "System.ClientModel/1.0.0": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
@@ -1437,6 +1446,13 @@
       "sha512": "sha512-YqueG52R/Xej4VVbKuRIodjiAhV0HR/XVbLbNrJhCZnzjnSjgMJ/dCdV0akQQxavX6hp/LC6rqLGLcXeQYU7XA==",
       "path": "mono.texttemplating/3.0.0",
       "hashPath": "mono.texttemplating.3.0.0.nupkg.sha512"
+    },
+    "SriLibs.DataSync.MSSQLSERVER.NetFramework/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wZGjCaYoYZnKZYha/DMOpysITX2ISZQBBpwzZCCixv31mggF85x3ZJ19xJUGyMQk0ijW7jdVkUER3MH/G2KdfA==",
+      "path": "srilibs.datasync.mssqlserver.netframework/1.0.4",
+      "hashPath": "srilibs.datasync.mssqlserver.netframework.1.0.4.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",
