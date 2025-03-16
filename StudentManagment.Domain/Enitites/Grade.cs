@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace StudentManagment.Domain.Enitites
 {
-    public class Grade : IHasLastUpdated
+    public class Grade
     {
         public int GradeID { get; set; }
         public int StudentID { get; set; }
         public int CourseID { get; set; }
         public char LetterGrade { get; set; } = 'F'; // A, B, C, D, F Default being 'F'
-        public DateTime LastUpdated { get; set; }
         public Student? Student { get; set; }
         public Course? Course { get; set; }
     }

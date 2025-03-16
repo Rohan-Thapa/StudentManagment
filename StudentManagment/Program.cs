@@ -14,7 +14,6 @@ builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddScoped<IAppDbContext, AppDbContext>();
 
-builder.Services.AddScoped<IDataSyncService, DataSyncService>();
 builder.Services.AddHostedService<DatabaseSyncService>();
 
 builder.Services.AddControllers();

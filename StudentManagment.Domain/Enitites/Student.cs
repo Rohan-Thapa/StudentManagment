@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StudentManagment.Domain.Enitites
 {
-    public class Student : IHasLastUpdated
+    public class Student
     {
         public int StudentID { get; set; }
         public string? FullName { get; set; }
@@ -15,7 +15,6 @@ namespace StudentManagment.Domain.Enitites
         public string? Email { get; set; }
         public string? PhoneNumber { get; set; }
         public DateTime RegistrationDate { get; set; } = DateTime.UtcNow;
-        public DateTime LastUpdated { get; set; }
         public ICollection<Enrollment>? Enrollments { get; set; }
         public ICollection<Grade>? Grades { get; set; }
     }

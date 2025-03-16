@@ -1,51 +1,51 @@
-﻿using StudentManagment.Domain.Interfaces;
+﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
+using Dotmim.Sync;
+using Dotmim.Sync.SqlServer;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Configuration;
 
 namespace StudentManagment.Api.BackgroundSync
 {
     public class DatabaseSyncService : BackgroundService
     {
-        private readonly IServiceProvider _serviceProvider;
-        private readonly ILogger<DatabaseSyncService> _logger;
+        private readonly IConfiguration _configuration;
 
-        public DatabaseSyncService(IServiceProvider serviceProvider, ILogger<DatabaseSyncService> logger)
+        public DatabaseSyncService(IConfiguration configuration)
         {
-            _serviceProvider = serviceProvider;
-            _logger = logger;
+            _configuration = configuration;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-                var now = DateTime.Now;
-
-                // Scheduled sync at exactly 7 AM or 7 PM.
-                if ((now.Hour == 7 || now.Hour == 19) && now.Minute == 0)
-                {
-                    try
-                    {
-                        using (var scope = _serviceProvider.CreateScope())
-                        {
-                            var syncService = scope.ServiceProvider.GetRequiredService<IDataSyncService>();
-                            await syncService.SyncDatabasesAsync();
-                        }
-                        _logger.LogInformation("Scheduled database sync executed at {time}", now);
-                    }
-                    catch (Exception ex)
-                    {
-                        _logger.LogError(ex, "Error during scheduled sync at {time}", now);
-                    }
-
-                    // Delay to avoid multiple triggers within the same minute.
-                    await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
-                }
-                else
-                {
-                    // Check every 30 seconds.
-                    await Task.Delay(TimeSpan.FromSeconds(30), stoppingToken);
-                }
+                await SyncDatabases();
+                Console.WriteLine("Next sync in 65 seconds...");
+                await Task.Delay(TimeSpan.FromSeconds(65), stoppingToken);
             }
         }
-    }
 
+        private async Task SyncDatabases()
+        {
+            Console.WriteLine("Starting database synchronization...");
+
+            var primaryDb = _configuration.GetConnectionString("DefaultConnection");
+            var backupDb = _configuration.GetConnectionString("BackupConnection");
+
+            var serverProvider = new SqlSyncProvider(primaryDb);
+            var clientProvider = new SqlSyncProvider(backupDb);
+
+            // Define which tables to sync
+            var setup = new SyncSetup(new string[] { "Students", "Courses", "Enrollments", "Grades" });
+
+            // Sync agent
+            var agent = new SyncAgent(clientProvider, serverProvider);
+
+            // Execute sync
+            var result = await agent.SynchronizeAsync(setup);
+            Console.WriteLine($"Sync completed: {result.TotalChangesUploadedToServer} uploaded, {result.TotalChangesDownloadedFromServer} downloaded.");
+        }
+    }
 }
