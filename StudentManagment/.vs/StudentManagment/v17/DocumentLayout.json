@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA15F85-B639-4638-B6E3-3FA674874DEA}|..\\StudentManagment.Domain\\StudentManagment.Domain.csproj|c:\\users\\rohan\\desktop\\main\\studentmanagment\\studentmanagment\\studentmanagment.domain\\interfaces\\ihaslastupdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA15F85-B639-4638-B6E3-3FA674874DEA}|..\\StudentManagment.Domain\\StudentManagment.Domain.csproj|c:\\users\\rohan\\desktop\\main\\studentmanagment\\studentmanagment\\studentmanagment.domain\\enitites\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA15F85-B639-4638-B6E3-3FA674874DEA}|..\\StudentManagment.Domain\\StudentManagment.Domain.csproj|c:\\users\\rohan\\desktop\\main\\studentmanagment\\studentmanagment\\studentmanagment.domain\\enitites\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA15F85-B639-4638-B6E3-3FA674874DEA}|..\\StudentManagment.Domain\\StudentManagment.Domain.csproj|c:\\users\\rohan\\desktop\\main\\studentmanagment\\studentmanagment\\studentmanagment.domain\\enitites\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA15F85-B639-4638-B6E3-3FA674874DEA}|..\\StudentManagment.Domain\\StudentManagment.Domain.csproj|c:\\users\\rohan\\desktop\\main\\studentmanagment\\studentmanagment\\studentmanagment.domain\\enitites\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4DCC6E-F551-43D5-A719-3E47A443ECEC}|StudentManagment.Api.csproj|c:\\users\\rohan\\desktop\\main\\studentmanagment\\studentmanagment\\studentmanagment\\backgroundsync\\databasesyncservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4DCC6E-F551-43D5-A719-3E47A443ECEC}|StudentManagment.Api.csproj|solutionrelative:backgroundsync\\databasesyncservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4DCC6E-F551-43D5-A719-3E47A443ECEC}|StudentManagment.Api.csproj|c:\\users\\rohan\\desktop\\main\\studentmanagment\\studentmanagment\\studentmanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC4DCC6E-F551-43D5-A719-3E47A443ECEC}|StudentManagment.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC4DCC6E-F551-43D5-A719-3E47A443ECEC}|StudentManagment.Api.csproj|c:\\users\\rohan\\desktop\\main\\studentmanagment\\studentmanagment\\studentmanagment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AC4DCC6E-F551-43D5-A719-3E47A443ECEC}|StudentManagment.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\Enitites\\Course.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagment.Domain\\Enitites\\Course.cs",
+              "ToolTip": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\Enitites\\Course.cs",
+              "RelativeToolTip": "..\\StudentManagment.Domain\\Enitites\\Course.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:09:48.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\Enitites\\Enrollment.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagment.Domain\\Enitites\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\Enitites\\Enrollment.cs",
+              "RelativeToolTip": "..\\StudentManagment.Domain\\Enitites\\Enrollment.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:09:16.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Grade.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\Enitites\\Grade.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagment.Domain\\Enitites\\Grade.cs",
+              "ToolTip": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\Enitites\\Grade.cs",
+              "RelativeToolTip": "..\\StudentManagment.Domain\\Enitites\\Grade.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:08:31.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\Enitites\\Student.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagment.Domain\\Enitites\\Student.cs",
+              "ToolTip": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\Enitites\\Student.cs",
+              "RelativeToolTip": "..\\StudentManagment.Domain\\Enitites\\Student.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:05:25.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IHasLastUpdated.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\Interfaces\\IHasLastUpdated.cs",
+              "RelativeDocumentMoniker": "..\\StudentManagment.Domain\\Interfaces\\IHasLastUpdated.cs",
+              "ToolTip": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment.Domain\\Interfaces\\IHasLastUpdated.cs",
+              "RelativeToolTip": "..\\StudentManagment.Domain\\Interfaces\\IHasLastUpdated.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:04:26.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseSyncService.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment\\BackgroundSync\\DatabaseSyncService.cs",
+              "RelativeDocumentMoniker": "BackgroundSync\\DatabaseSyncService.cs",
+              "ToolTip": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment\\BackgroundSync\\DatabaseSyncService.cs",
+              "RelativeToolTip": "BackgroundSync\\DatabaseSyncService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:01:07.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-16T05:21:45.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\Desktop\\Main\\StudentManagment\\StudentManagment\\StudentManagment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T05:42:48.321Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

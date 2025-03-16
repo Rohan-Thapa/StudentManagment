@@ -4,6 +4,8 @@ using StudentManagment.Application.Interfaces;
 using StudentManagment.Infrastructure.Persistence;
 using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
+using StudentManagment.Domain.Interfaces;
+using StudentManagment.Api.BackgroundSync;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddScoped<IAppDbContext, AppDbContext>();
+
+builder.Services.AddScoped<IDataSyncService, DataSyncService>();
+builder.Services.AddHostedService<DatabaseSyncService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -33,4 +38,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-// HandCrafted By Rohan Thapa
+// HandCrafted By Rohan Thapa || Project Name : AculanProject || Date : 2025-03-03
