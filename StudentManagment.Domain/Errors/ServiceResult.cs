@@ -30,4 +30,3 @@ namespace StudentManagment.Domain.Errors
         }
     }
 }
-// what is done here is 秘密 (A Himitsu, secret in Japanese)
