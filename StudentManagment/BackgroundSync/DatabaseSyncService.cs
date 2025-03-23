@@ -31,6 +31,8 @@ namespace StudentManagment.Api.BackgroundSync
         {
             Console.WriteLine("Starting database synchronization...");
 
+            // Remember here the both the database has to be created as this service can't create new db by itself.
+
             var primaryDb = _configuration.GetConnectionString("DefaultConnection");
             var backupDb = _configuration.GetConnectionString("BackupConnection");
 

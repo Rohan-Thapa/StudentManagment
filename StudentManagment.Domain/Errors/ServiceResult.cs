@@ -8,25 +8,14 @@ namespace StudentManagment.Domain.Errors
 {
     public class ServiceResult<T>
     {
-        public bool IsSuccess { get; }
-        public string? ErrorMessage { get; }
-        public T? Data { get; }
+        public bool IsSuccess { get; set; }
+        public string ErrorMessage { get; set; } = string.Empty;
+        public T? Data { get; set; }
 
-        public ServiceResult(bool isSuccess, string? errorMessage, T? data)
-        {
-            IsSuccess = isSuccess;
-            ErrorMessage = errorMessage;
-            Data = data;
-        }
-
-        public static ServiceResult<T> AsSuccess(T data)
-        {
-            return new ServiceResult<T>(true, null, data);
-        }
+        public static ServiceResult<T> AsSuccess(T data, string message="Operation Successful")
+        => new() { IsSuccess = true, Data=data, ErrorMessage = message };
 
         public static ServiceResult<T> AsFailure(string errorMessage)
-        {
-            return new ServiceResult<T>(false, errorMessage, default);
-        }
+        => new() { IsSuccess = false, ErrorMessage = errorMessage };
     }
 }

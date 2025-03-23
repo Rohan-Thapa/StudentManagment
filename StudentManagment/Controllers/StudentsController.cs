@@ -39,6 +39,28 @@ namespace StudentManagment.API.Controllers
             return Ok(student);
         }
 
+        /* 
+          public async Task<ActionResult<ServiceResult<Student>>> GetStudentById(int id)
+{
+    try
+    {
+        var query = new GetStudentByIdQuery(id);
+        var student = await _mediator.Send(query);
+        if (student == null)
+        {
+            return NotFound(ServiceResult<Student>.AsFailure("Student not found"));
+        }
+        return Ok(student);
+    }
+    catch (Exception)
+    {
+        // Do not leak technical details
+        return StatusCode(500, ServiceResult<Student>.AsFailure("An unexpected error occurred."));
+    }
+}
+         
+         */
+
         // POST: api/student
         [HttpPost]
         public async Task<IActionResult> CreateStudent([FromBody] CreateStudentCommand command)
